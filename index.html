@@ -4,19 +4,7 @@
     <title>Fund Me App</title>
   </head>
   <body>
-    <script>
-      // if we refresh page it will not ask if you will connect to metamask
-      async function connect() {
-        // look if window.ethereum exists
-        if (typeof window.ethereum !== "undefined") {
-          // connect to metamask
-          await window.ethereum.request({ method: "eth_requestAccounts" });
-          document.getElementById("connectButton").innerHTML = "Connected!";
-        } else {
-          document.getElementById("connectButton").innerHTML = "Please install MetaMask!";
-        }
-      }
-    </script>
     <button id="connectButton" onclick="connect()">Connect</button>
+    <script src="./index.js" type="text/javascript"></script>
   </body>
 </html>
