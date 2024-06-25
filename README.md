@@ -19,7 +19,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-- ...
+- connect button to metamask
+- fund
 
 ## Notes
 
