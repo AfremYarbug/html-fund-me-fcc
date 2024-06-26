@@ -34,6 +34,22 @@
 
 ### ([12:59:13](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=46753s)): ES6 (Front End JS) vs NodeJS
 
+import in front end
+request in back end
+
+Format Code:
+Command: `yarn add --dev prettier`
+
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": false
+}
+
+In future lesson we use react and nextjs convert yarn add to front end versions
+
+
 ### ([13:07:58](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=47278s)): Sending a Transaction from a Website
 
 ### ([13:19:01](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=47941s)): Resetting an account in Metamask
